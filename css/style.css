@@ -22,8 +22,8 @@ body {
     src: url(../fonts/AnonymousPro.ttf);
 }
 .introduction h1{
-	color: #FF00FF;
-	font-family: Consolas;
+	color: #696969; /*FF00FF,5F9EA0,B0C4DE,7B68EE*/
+	font-family: myFont;
 	
 }
 
@@ -31,11 +31,11 @@ body {
 	margin-left:10px;
 }
 
-#footer {
-	color: gray;
+#header {
+	color: lightgrey;
 	font-family: myFont;
 	font-size: 12px;
-	margin-left:2px;
+	margin-left:4px;
 }
 
 
