@@ -1,0 +1,83 @@
+body {
+		margin: 0px 0px 0px 0px;
+	}
+
+#background {
+    width: auto; 
+    height: 100%; 
+    position: fixed; 
+	right: 0px;
+	top:0;
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+    
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/AnonymousPro.ttf);
+}
+.introduction h1{
+	color: #FF00FF;
+	font-family: Consolas;
+	
+}
+
+#text {
+	margin-left:10px;
+}
+
+#footer {
+	color: gray;
+	font-family: myFont;
+	font-size: 12px;
+	margin-left:2px;
+}
+
+
+.introduction {
+	font-family: myFont;
+	color: gray;
+	margin-left:20px;
+}
+
+#contacts {
+	font-family: Consolas;
+}
+
+
+
+.element {
+	color: gray;
+	text-decoration: none;
+	font-family: Consolas;
+	
+}
+ 
+ 
+/*Animates typing*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
